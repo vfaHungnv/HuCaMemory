@@ -1,0 +1,6 @@
+framework module Pods_HuCaMemoryTests {
+  umbrella header "Pods-HuCaMemoryTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

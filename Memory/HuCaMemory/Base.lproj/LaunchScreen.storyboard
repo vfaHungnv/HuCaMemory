@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="B5e-oZ-xtc">
+                                <rect key="frame" x="0.0" y="-568" width="320" height="568"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="start_title" translatesAutoresizingMaskIntoConstraints="NO" id="g6u-0W-GdI">
+                                <rect key="frame" x="0.0" y="-36" width="221" height="36"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="g6u-0W-GdI" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Dn4-QR-Tsu"/>
+                            <constraint firstItem="B5e-oZ-xtc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="Maw-J8-DoC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="B5e-oZ-xtc" secondAttribute="trailing" constant="-20" id="VgE-fN-jlb"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="B5e-oZ-xtc" secondAttribute="bottom" id="ZKu-KS-weK"/>
+                            <constraint firstItem="g6u-0W-GdI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ea6-im-9Ip"/>
+                            <constraint firstItem="B5e-oZ-xtc" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="-20" id="xrY-hm-FuD"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="B5e-oZ-xtc"/>
+                                <exclude reference="g6u-0W-GdI"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Maw-J8-DoC"/>
+                                <exclude reference="VgE-fN-jlb"/>
+                                <exclude reference="xrY-hm-FuD"/>
+                                <exclude reference="Dn4-QR-Tsu"/>
+                                <exclude reference="ea6-im-9Ip"/>
+                                <exclude reference="ZKu-KS-weK"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="B5e-oZ-xtc"/>
+                                <include reference="g6u-0W-GdI"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Maw-J8-DoC"/>
+                                <include reference="VgE-fN-jlb"/>
+                                <include reference="xrY-hm-FuD"/>
+                                <include reference="Dn4-QR-Tsu"/>
+                                <include reference="ea6-im-9Ip"/>
+                                <include reference="ZKu-KS-weK"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="320" height="568"/>
+        <image name="start_title" width="221" height="36"/>
+    </resources>
+</document>

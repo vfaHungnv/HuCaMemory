@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.1'
+
+target 'HuCaMemory' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for HuCaMemory
+  pod 'Google-Mobile-Ads-SDK'
+
+  target 'HuCaMemoryTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HuCaMemoryUITests' do
+    # Pods for testing
+  end
+
+end

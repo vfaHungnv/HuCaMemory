@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43127646487310EE8B2F04CA /* Pods_HuCaMemory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78ECA21E88B20EF089F88893 /* Pods_HuCaMemory.framework */; };
+		48ECF07D23A64CCB0075D5EC /* GoogleAdMobHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ECF07C23A64CCB0075D5EC /* GoogleAdMobHelper.swift */; };
+		577C32B96BC48B9518DFCF58 /* Pods_HuCaMemory_HuCaMemoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A477BFCE15983B2058A8B95 /* Pods_HuCaMemory_HuCaMemoryUITests.framework */; };
+		C795853344E3F8AEB025D185 /* Pods_HuCaMemoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751389E453EBC046F90F74C3 /* Pods_HuCaMemoryTests.framework */; };
+		F71376631CC3D4720077896F /* ScoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F71376621CC3D4720077896F /* ScoreCell.m */; };
+		F72618DD1BDCADC90063DF88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F72618DC1BDCADC90063DF88 /* main.m */; };
+		F72618E01BDCADC90063DF88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F72618DF1BDCADC90063DF88 /* AppDelegate.m */; };
+		F72618E61BDCADC90063DF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72618E41BDCADC90063DF88 /* Main.storyboard */; };
+		F72618E81BDCADC90063DF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72618E71BDCADC90063DF88 /* Assets.xcassets */; };
+		F72618EB1BDCADC90063DF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72618E91BDCADC90063DF88 /* LaunchScreen.storyboard */; };
+		F72618F61BDCADC90063DF88 /* HuCaMemoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F72618F51BDCADC90063DF88 /* HuCaMemoryTests.m */; };
+		F72619011BDCADC90063DF88 /* HuCaMemoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F72619001BDCADC90063DF88 /* HuCaMemoryUITests.m */; };
+		F72619171BDCB0160063DF88 /* HGRPP1.TTC in Resources */ = {isa = PBXBuildFile; fileRef = F72619161BDCB0160063DF88 /* HGRPP1.TTC */; };
+		F78025121C9E839D00F8672E /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78025111C9E839D00F8672E /* TopViewController.m */; };
+		F78025151C9E83C500F8672E /* ManualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78025141C9E83C500F8672E /* ManualViewController.m */; };
+		F78025181C9E83DC00F8672E /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F78025171C9E83DC00F8672E /* PlayViewController.m */; };
+		F780251B1C9EAAD900F8672E /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F780251A1C9EAAD900F8672E /* RankingViewController.m */; };
+		F7D19FA11CBA0E81001EB63B /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D19FA01CBA0E81001EB63B /* ResultViewController.m */; };
+		F7D19FA41CBA3269001EB63B /* ScoreObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D19FA31CBA3269001EB63B /* ScoreObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F72618F21BDCADC90063DF88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72618D01BDCADC90063DF88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F72618D71BDCADC90063DF88;
+			remoteInfo = HuCaMemory;
+		};
+		F72618FD1BDCADC90063DF88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F72618D01BDCADC90063DF88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F72618D71BDCADC90063DF88;
+			remoteInfo = HuCaMemory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A4653070412142BC44E4867 /* Pods-HuCaMemory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuCaMemory.debug.xcconfig"; path = "Target Support Files/Pods-HuCaMemory/Pods-HuCaMemory.debug.xcconfig"; sourceTree = "<group>"; };
+		48ECF07C23A64CCB0075D5EC /* GoogleAdMobHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAdMobHelper.swift; sourceTree = "<group>"; };
+		48ECF07E23A64D5E0075D5EC /* HuCaMemory-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HuCaMemory-Bridging-Header.h"; sourceTree = "<group>"; };
+		4A477BFCE15983B2058A8B95 /* Pods_HuCaMemory_HuCaMemoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuCaMemory_HuCaMemoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		751389E453EBC046F90F74C3 /* Pods_HuCaMemoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuCaMemoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78ECA21E88B20EF089F88893 /* Pods_HuCaMemory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuCaMemory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A32B95157DFCF7D2256746 /* Pods-HuCaMemoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuCaMemoryTests.release.xcconfig"; path = "Target Support Files/Pods-HuCaMemoryTests/Pods-HuCaMemoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		938B08E6A1ACAA592E4F27C5 /* Pods-HuCaMemoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuCaMemoryTests.debug.xcconfig"; path = "Target Support Files/Pods-HuCaMemoryTests/Pods-HuCaMemoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A15B8CC408CCC2537E046085 /* Pods-HuCaMemory-HuCaMemoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuCaMemory-HuCaMemoryUITests.debug.xcconfig"; path = "Target Support Files/Pods-HuCaMemory-HuCaMemoryUITests/Pods-HuCaMemory-HuCaMemoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFFFEB0393616B736996AED8 /* Pods-HuCaMemory-HuCaMemoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuCaMemory-HuCaMemoryUITests.release.xcconfig"; path = "Target Support Files/Pods-HuCaMemory-HuCaMemoryUITests/Pods-HuCaMemory-HuCaMemoryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E45DE5BF78B55FF8835297B6 /* Pods-HuCaMemory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuCaMemory.release.xcconfig"; path = "Target Support Files/Pods-HuCaMemory/Pods-HuCaMemory.release.xcconfig"; sourceTree = "<group>"; };
+		F71376611CC3D4720077896F /* ScoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScoreCell.h; path = SourceCode/ScoreCell.h; sourceTree = "<group>"; };
+		F71376621CC3D4720077896F /* ScoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScoreCell.m; path = SourceCode/ScoreCell.m; sourceTree = "<group>"; };
+		F72618D81BDCADC90063DF88 /* HuCaMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuCaMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72618DC1BDCADC90063DF88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F72618DE1BDCADC90063DF88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F72618DF1BDCADC90063DF88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F72618E51BDCADC90063DF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F72618E71BDCADC90063DF88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F72618EA1BDCADC90063DF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F72618EC1BDCADC90063DF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72618F11BDCADC90063DF88 /* HuCaMemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuCaMemoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72618F51BDCADC90063DF88 /* HuCaMemoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuCaMemoryTests.m; sourceTree = "<group>"; };
+		F72618F71BDCADC90063DF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72618FC1BDCADC90063DF88 /* HuCaMemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuCaMemoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72619001BDCADC90063DF88 /* HuCaMemoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuCaMemoryUITests.m; sourceTree = "<group>"; };
+		F72619021BDCADC90063DF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72619161BDCB0160063DF88 /* HGRPP1.TTC */ = {isa = PBXFileReference; lastKnownFileType = file; name = HGRPP1.TTC; path = Resource/Fonts/HGRPP1.TTC; sourceTree = "<group>"; };
+		F780250E1C9E819E00F8672E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F780250F1C9E825400F8672E /* iDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDefine.h; sourceTree = "<group>"; };
+		F78025101C9E839D00F8672E /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopViewController.h; path = SourceCode/TopViewController.h; sourceTree = "<group>"; };
+		F78025111C9E839D00F8672E /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopViewController.m; path = SourceCode/TopViewController.m; sourceTree = "<group>"; };
+		F78025131C9E83C500F8672E /* ManualViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManualViewController.h; path = SourceCode/ManualViewController.h; sourceTree = "<group>"; };
+		F78025141C9E83C500F8672E /* ManualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManualViewController.m; path = SourceCode/ManualViewController.m; sourceTree = "<group>"; };
+		F78025161C9E83DC00F8672E /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayViewController.h; path = SourceCode/PlayViewController.h; sourceTree = "<group>"; };
+		F78025171C9E83DC00F8672E /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayViewController.m; path = SourceCode/PlayViewController.m; sourceTree = "<group>"; };
+		F78025191C9EAAD900F8672E /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RankingViewController.h; path = SourceCode/RankingViewController.h; sourceTree = "<group>"; };
+		F780251A1C9EAAD900F8672E /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RankingViewController.m; path = SourceCode/RankingViewController.m; sourceTree = "<group>"; };
+		F7D19F9F1CBA0E81001EB63B /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultViewController.h; path = SourceCode/ResultViewController.h; sourceTree = "<group>"; };
+		F7D19FA01CBA0E81001EB63B /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultViewController.m; path = SourceCode/ResultViewController.m; sourceTree = "<group>"; };
+		F7D19FA21CBA3269001EB63B /* ScoreObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScoreObject.h; path = SourceCode/ScoreObject.h; sourceTree = "<group>"; };
+		F7D19FA31CBA3269001EB63B /* ScoreObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScoreObject.m; path = SourceCode/ScoreObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F72618D51BDCADC90063DF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43127646487310EE8B2F04CA /* Pods_HuCaMemory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72618EE1BDCADC90063DF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C795853344E3F8AEB025D185 /* Pods_HuCaMemoryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72618F91BDCADC90063DF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577C32B96BC48B9518DFCF58 /* Pods_HuCaMemory_HuCaMemoryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1537E6268F36EFF551C7FC4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78ECA21E88B20EF089F88893 /* Pods_HuCaMemory.framework */,
+				4A477BFCE15983B2058A8B95 /* Pods_HuCaMemory_HuCaMemoryUITests.framework */,
+				751389E453EBC046F90F74C3 /* Pods_HuCaMemoryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48ECF07823A645F10075D5EC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				48ECF07C23A64CCB0075D5EC /* GoogleAdMobHelper.swift */,
+				48ECF07E23A64D5E0075D5EC /* HuCaMemory-Bridging-Header.h */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BCA69025344601B9241D9954 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A4653070412142BC44E4867 /* Pods-HuCaMemory.debug.xcconfig */,
+				E45DE5BF78B55FF8835297B6 /* Pods-HuCaMemory.release.xcconfig */,
+				A15B8CC408CCC2537E046085 /* Pods-HuCaMemory-HuCaMemoryUITests.debug.xcconfig */,
+				DFFFEB0393616B736996AED8 /* Pods-HuCaMemory-HuCaMemoryUITests.release.xcconfig */,
+				938B08E6A1ACAA592E4F27C5 /* Pods-HuCaMemoryTests.debug.xcconfig */,
+				83A32B95157DFCF7D2256746 /* Pods-HuCaMemoryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F72618CF1BDCADC90063DF88 = {
+			isa = PBXGroup;
+			children = (
+				F72618DA1BDCADC90063DF88 /* HuCaMemory */,
+				F72618F41BDCADC90063DF88 /* HuCaMemoryTests */,
+				F72618FF1BDCADC90063DF88 /* HuCaMemoryUITests */,
+				F72618D91BDCADC90063DF88 /* Products */,
+				BCA69025344601B9241D9954 /* Pods */,
+				1537E6268F36EFF551C7FC4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F72618D91BDCADC90063DF88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F72618D81BDCADC90063DF88 /* HuCaMemory.app */,
+				F72618F11BDCADC90063DF88 /* HuCaMemoryTests.xctest */,
+				F72618FC1BDCADC90063DF88 /* HuCaMemoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F72618DA1BDCADC90063DF88 /* HuCaMemory */ = {
+			isa = PBXGroup;
+			children = (
+				48ECF07823A645F10075D5EC /* Service */,
+				F726197B1BDCB0550063DF88 /* SourceCode */,
+				F72619101BDCAF460063DF88 /* Resource */,
+				F72618DE1BDCADC90063DF88 /* AppDelegate.h */,
+				F72618DF1BDCADC90063DF88 /* AppDelegate.m */,
+				F72618E41BDCADC90063DF88 /* Main.storyboard */,
+				F72618E71BDCADC90063DF88 /* Assets.xcassets */,
+				F72618E91BDCADC90063DF88 /* LaunchScreen.storyboard */,
+				F72618EC1BDCADC90063DF88 /* Info.plist */,
+				F72618DB1BDCADC90063DF88 /* Supporting Files */,
+			);
+			path = HuCaMemory;
+			sourceTree = "<group>";
+		};
+		F72618DB1BDCADC90063DF88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F72618DC1BDCADC90063DF88 /* main.m */,
+				F780250E1C9E819E00F8672E /* PrefixHeader.pch */,
+				F780250F1C9E825400F8672E /* iDefine.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F72618F41BDCADC90063DF88 /* HuCaMemoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F72618F51BDCADC90063DF88 /* HuCaMemoryTests.m */,
+				F72618F71BDCADC90063DF88 /* Info.plist */,
+			);
+			path = HuCaMemoryTests;
+			sourceTree = "<group>";
+		};
+		F72618FF1BDCADC90063DF88 /* HuCaMemoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F72619001BDCADC90063DF88 /* HuCaMemoryUITests.m */,
+				F72619021BDCADC90063DF88 /* Info.plist */,
+			);
+			path = HuCaMemoryUITests;
+			sourceTree = "<group>";
+		};
+		F72619101BDCAF460063DF88 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F72619151BDCB0000063DF88 /* Fonts */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		F72619151BDCB0000063DF88 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F72619161BDCB0160063DF88 /* HGRPP1.TTC */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		F726197B1BDCB0550063DF88 /* SourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				F78025101C9E839D00F8672E /* TopViewController.h */,
+				F78025111C9E839D00F8672E /* TopViewController.m */,
+				F78025131C9E83C500F8672E /* ManualViewController.h */,
+				F78025141C9E83C500F8672E /* ManualViewController.m */,
+				F78025161C9E83DC00F8672E /* PlayViewController.h */,
+				F78025171C9E83DC00F8672E /* PlayViewController.m */,
+				F78025191C9EAAD900F8672E /* RankingViewController.h */,
+				F780251A1C9EAAD900F8672E /* RankingViewController.m */,
+				F7D19F9F1CBA0E81001EB63B /* ResultViewController.h */,
+				F7D19FA01CBA0E81001EB63B /* ResultViewController.m */,
+				F7D19FA21CBA3269001EB63B /* ScoreObject.h */,
+				F7D19FA31CBA3269001EB63B /* ScoreObject.m */,
+				F71376611CC3D4720077896F /* ScoreCell.h */,
+				F71376621CC3D4720077896F /* ScoreCell.m */,
+			);
+			name = SourceCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F72618D71BDCADC90063DF88 /* HuCaMemory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72619051BDCADC90063DF88 /* Build configuration list for PBXNativeTarget "HuCaMemory" */;
+			buildPhases = (
+				4EF78328E6B103FC651421C7 /* [CP] Check Pods Manifest.lock */,
+				F72618D41BDCADC90063DF88 /* Sources */,
+				F72618D51BDCADC90063DF88 /* Frameworks */,
+				F72618D61BDCADC90063DF88 /* Resources */,
+				4EBD8AAB50BC8E8120D96E3C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuCaMemory;
+			productName = HuCaMemory;
+			productReference = F72618D81BDCADC90063DF88 /* HuCaMemory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F72618F01BDCADC90063DF88 /* HuCaMemoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F72619081BDCADC90063DF88 /* Build configuration list for PBXNativeTarget "HuCaMemoryTests" */;
+			buildPhases = (
+				7110EF5CC2CE852A03E42AD2 /* [CP] Check Pods Manifest.lock */,
+				F72618ED1BDCADC90063DF88 /* Sources */,
+				F72618EE1BDCADC90063DF88 /* Frameworks */,
+				F72618EF1BDCADC90063DF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F72618F31BDCADC90063DF88 /* PBXTargetDependency */,
+			);
+			name = HuCaMemoryTests;
+			productName = HuCaMemoryTests;
+			productReference = F72618F11BDCADC90063DF88 /* HuCaMemoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F72618FB1BDCADC90063DF88 /* HuCaMemoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F726190B1BDCADC90063DF88 /* Build configuration list for PBXNativeTarget "HuCaMemoryUITests" */;
+			buildPhases = (
+				A27A0426744F3898D7461207 /* [CP] Check Pods Manifest.lock */,
+				F72618F81BDCADC90063DF88 /* Sources */,
+				F72618F91BDCADC90063DF88 /* Frameworks */,
+				F72618FA1BDCADC90063DF88 /* Resources */,
+				2ED5560B5CA13DEAD864B68F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F72618FE1BDCADC90063DF88 /* PBXTargetDependency */,
+			);
+			name = HuCaMemoryUITests;
+			productName = HuCaMemoryUITests;
+			productReference = F72618FC1BDCADC90063DF88 /* HuCaMemoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F72618D01BDCADC90063DF88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = hungnv;
+				TargetAttributes = {
+					F72618D71BDCADC90063DF88 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = WN9FR2WF7Q;
+						LastSwiftMigration = 1120;
+						ProvisioningStyle = Manual;
+					};
+					F72618F01BDCADC90063DF88 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F72618D71BDCADC90063DF88;
+					};
+					F72618FB1BDCADC90063DF88 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F72618D71BDCADC90063DF88;
+					};
+				};
+			};
+			buildConfigurationList = F72618D31BDCADC90063DF88 /* Build configuration list for PBXProject "HuCaMemory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F72618CF1BDCADC90063DF88;
+			productRefGroup = F72618D91BDCADC90063DF88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F72618D71BDCADC90063DF88 /* HuCaMemory */,
+				F72618F01BDCADC90063DF88 /* HuCaMemoryTests */,
+				F72618FB1BDCADC90063DF88 /* HuCaMemoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F72618D61BDCADC90063DF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72619171BDCB0160063DF88 /* HGRPP1.TTC in Resources */,
+				F72618EB1BDCADC90063DF88 /* LaunchScreen.storyboard in Resources */,
+				F72618E81BDCADC90063DF88 /* Assets.xcassets in Resources */,
+				F72618E61BDCADC90063DF88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72618EF1BDCADC90063DF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72618FA1BDCADC90063DF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ED5560B5CA13DEAD864B68F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HuCaMemory-HuCaMemoryUITests/Pods-HuCaMemory-HuCaMemoryUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HuCaMemory-HuCaMemoryUITests/Pods-HuCaMemory-HuCaMemoryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EBD8AAB50BC8E8120D96E3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HuCaMemory/Pods-HuCaMemory-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HuCaMemory/Pods-HuCaMemory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EF78328E6B103FC651421C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuCaMemory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7110EF5CC2CE852A03E42AD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuCaMemoryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A27A0426744F3898D7461207 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuCaMemory-HuCaMemoryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F72618D41BDCADC90063DF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48ECF07D23A64CCB0075D5EC /* GoogleAdMobHelper.swift in Sources */,
+				F78025121C9E839D00F8672E /* TopViewController.m in Sources */,
+				F72618E01BDCADC90063DF88 /* AppDelegate.m in Sources */,
+				F72618DD1BDCADC90063DF88 /* main.m in Sources */,
+				F780251B1C9EAAD900F8672E /* RankingViewController.m in Sources */,
+				F78025151C9E83C500F8672E /* ManualViewController.m in Sources */,
+				F71376631CC3D4720077896F /* ScoreCell.m in Sources */,
+				F78025181C9E83DC00F8672E /* PlayViewController.m in Sources */,
+				F7D19FA41CBA3269001EB63B /* ScoreObject.m in Sources */,
+				F7D19FA11CBA0E81001EB63B /* ResultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72618ED1BDCADC90063DF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72618F61BDCADC90063DF88 /* HuCaMemoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72618F81BDCADC90063DF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72619011BDCADC90063DF88 /* HuCaMemoryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F72618F31BDCADC90063DF88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F72618D71BDCADC90063DF88 /* HuCaMemory */;
+			targetProxy = F72618F21BDCADC90063DF88 /* PBXContainerItemProxy */;
+		};
+		F72618FE1BDCADC90063DF88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F72618D71BDCADC90063DF88 /* HuCaMemory */;
+			targetProxy = F72618FD1BDCADC90063DF88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F72618E41BDCADC90063DF88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72618E51BDCADC90063DF88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F72618E91BDCADC90063DF88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F72618EA1BDCADC90063DF88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F72619031BDCADC90063DF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F72619041BDCADC90063DF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F72619061BDCADC90063DF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4653070412142BC44E4867 /* Pods-HuCaMemory.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: Hung Nguyen (53AW353ZP8)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = WN9FR2WF7Q;
+				GCC_PREFIX_HEADER = HuCaMemory/PrefixHeader.pch;
+				INFOPLIST_FILE = HuCaMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.vfahungnv.hucamemory;
+				PRODUCT_NAME = HuCaMemory;
+				PROVISIONING_PROFILE_SPECIFIER = "HuCaMemory-dev";
+				SWIFT_OBJC_BRIDGING_HEADER = "HuCaMemory/Service/HuCaMemory-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F72619071BDCADC90063DF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45DE5BF78B55FF8835297B6 /* Pods-HuCaMemory.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Hung Nguyen (WN9FR2WF7Q)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = WN9FR2WF7Q;
+				GCC_PREFIX_HEADER = HuCaMemory/PrefixHeader.pch;
+				INFOPLIST_FILE = HuCaMemory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.vfahungnv.hucamemory;
+				PRODUCT_NAME = HuCaMemory;
+				PROVISIONING_PROFILE_SPECIFIER = HuCaMemory;
+				SWIFT_OBJC_BRIDGING_HEADER = "HuCaMemory/Service/HuCaMemory-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F72619091BDCADC90063DF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938B08E6A1ACAA592E4F27C5 /* Pods-HuCaMemoryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HuCaMemoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungnv.HuCaMemoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuCaMemory.app/HuCaMemory";
+			};
+			name = Debug;
+		};
+		F726190A1BDCADC90063DF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A32B95157DFCF7D2256746 /* Pods-HuCaMemoryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HuCaMemoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungnv.HuCaMemoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuCaMemory.app/HuCaMemory";
+			};
+			name = Release;
+		};
+		F726190C1BDCADC90063DF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15B8CC408CCC2537E046085 /* Pods-HuCaMemory-HuCaMemoryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HuCaMemoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungnv.HuCaMemoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HuCaMemory;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F726190D1BDCADC90063DF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFFFEB0393616B736996AED8 /* Pods-HuCaMemory-HuCaMemoryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HuCaMemoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hungnv.HuCaMemoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HuCaMemory;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F72618D31BDCADC90063DF88 /* Build configuration list for PBXProject "HuCaMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72619031BDCADC90063DF88 /* Debug */,
+				F72619041BDCADC90063DF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72619051BDCADC90063DF88 /* Build configuration list for PBXNativeTarget "HuCaMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72619061BDCADC90063DF88 /* Debug */,
+				F72619071BDCADC90063DF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F72619081BDCADC90063DF88 /* Build configuration list for PBXNativeTarget "HuCaMemoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72619091BDCADC90063DF88 /* Debug */,
+				F726190A1BDCADC90063DF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F726190B1BDCADC90063DF88 /* Build configuration list for PBXNativeTarget "HuCaMemoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F726190C1BDCADC90063DF88 /* Debug */,
+				F726190D1BDCADC90063DF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F72618D01BDCADC90063DF88 /* Project object */;
+}
